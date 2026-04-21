@@ -6,7 +6,7 @@
 // count(); // From = 0, To = 10, step = 1
 
 
-function count (from =, to, step) {
+function count (from = to, step) {
 for (let i = from; i <=to; i += step) {
     console.log(i);   
 }

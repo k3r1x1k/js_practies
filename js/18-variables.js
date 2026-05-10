@@ -1,7 +1,7 @@
 // Практика разом деструктуризувати
 // Об’єкт car
-const {make, model: carmodel, year, features = [], safety: {airbags, antilock_brakes, stability_control}} = car
-console.log(make, carmodel, year, features, airbags, antilock_brakes, stability_control);
+// const {make, model: carmodel, year, features = [], safety: {airbags, antilock_brakes, stability_control}} = car
+// console.log(make, carmodel, year, features, airbags, antilock_brakes, stability_control);
 
 // Об’єкт movie
 const movie = {
@@ -14,8 +14,8 @@ const movie = {
   release_year: 1994,
   ratings: {
     imdb: 9.3,
-     : 90
+   
   }
 }
 
-const{ title, director, name, nationality, actors, release_year, ratings, imdbrotten_tomatoes}
+// const{ title, director, name, nationality, actors, release_year, ratings, imdbrotten_tomatoes}

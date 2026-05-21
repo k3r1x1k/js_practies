@@ -171,7 +171,7 @@ calculateAverageGrade(student)
 
 const personInfo = function (personObg){
 const {name, lastName, age} = personObg;
-return Мене звати ${name} ${lastName} і мені ${age} років
+return //Мене звати ${name} ${lastName} і мені ${age} років
 }
 console.log(personInfo({name:"kiril", lastName:"Shostak", age:14}));
 

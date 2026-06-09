@@ -37,3 +37,26 @@ for (const color of colorPickerOptions) {
 console.log(buttonList)
 
 colorPickerContainer.append(...buttonList);
+
+newList.innerHTML = `<li class="js-item"><a href="./dom.html"><span>hi</span>hello</a></li>`
+
+newList.insertAdjacentHTML("afterbegin", `<li class="js-item"><a href="./dom.html"><span>No</span>Nice</a></li>`)
+
+
+const colorPickerOptions = [
+    { label: 'red', color:   '#F44336' },
+    { label: 'green', color: '#4CAF50' },
+    { label: 'blue', color:  '#2196F3' },
+    { label: 'grey', color:  '#607D8B' },
+    { label: 'pink', color:  '#E91E63' },
+    { label: 'indigo', color:'#3F51B5' },
+  ];
+
+const colorPickerContainer = document.querySelector('.js-color-picker');
+
+const markApp = colorPickerOptions.map(option => {
+    return `<button class="btn" type="button" style="background-color: ${option.color};">label${option.label}</button>`
+})
+.join("")
+colorPickerContainer.innerHTML = markApp
+console.log(markApp)
